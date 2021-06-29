@@ -4,6 +4,9 @@ pipeline {
             steps {
                 sh "npm --version"
             }
+            steps {
+                sh "npm --version"
+            }
         }
     }
 }
